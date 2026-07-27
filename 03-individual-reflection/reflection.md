@@ -22,10 +22,10 @@ Hoạt động | Quan đã làm gì? | Kết quả |
 | Problem Statement | Nhờ AI phản biện field còn thiếu trong Problem Statement (ví dụ Boundary, AI intervention point ở v1 còn để trống) | Chỉ ra Success metric và Boundary cần cụ thể hơn ("giảm xuống dưới 5 phút" cần gắn với baseline 30-45 phút rõ ràng) | AI có xu hướng gợi ý thêm quyền hạn cho AI (tự gửi report) sớm hơn mức cần thiết | Nhóm giữ nguyên Boundary chặt: AI không tự gửi report, không tự bịa insight, không thay PM quyết định nội dung cuối |
 
 ## Bài học của Quan
-Ý tưởng nghe "đau" hoặc thú vị với cá nhân (như bài xe buýt của tôi) không đồng nghĩa là problem tốt nhất cho nhóm. Nó đôi khi thiếu evidence và impact đo được cụ thể là lý do chính khiến nó bị loại (28/35 so với 35/35 của bài được chọn).
-Vẽ workflow trước/sau giúp cho nhóm thấy rõ Rule đã đủ ở đâu (template ghi chú cố định) và AI thực sự tạo giá trị ở đâu (bước tổng hợp transcript lộn xộn thành biên bản có cấu trúc).
-Research tool có sẵn trên thị trường không phải để copy, mà để tránh build lại thứ đã tồn tại. Từ đó, nhóm tôi thấy rõ pattern chung: các tool tốt đều để AI draft, con người review, đúng với hướng Workflow (không phải Agent) mà nhóm chọn.
-Agent không phải đích đến mặc định: dù bài toán "dự đoán giờ xe buýt" của tôi có vẻ hợp với Agent (tự động theo dõi liên tục), nhóm tôi cuối cùng đã chọn bài khác phù hợp hơn nhưng có ranh giới người-máy rõ ràng và dễ validate trong thời gian lab.
+*Ý tưởng nghe "đau" này (như bài xe buýt của tôi) không đồng nghĩa là problem chung của cả nhóm. Nó đôi khi thiếu đi evidence và impact đo được cụ thể là lý do chính khiến nó bị loại (28/35 so với 35/35 của bài được chọn).*
+*Việc vẽ workflow trước/sau này giúp cho nhóm tôi thấy rõ Rule đã đủ ở đâu (template ghi chú cố định) và AI thực sự tạo giá trị ở đâu (bước tổng hợp transcript lộn xộn thành biên bản có cấu trúc).*
+*Research tool có sẵn trên thị trường không phải để copy, mà là để tránh build lại thứ đã tồn tại. Từ đó, nhóm tôi thấy rõ pattern chung: các tool tốt đều để AI draft, con người review, đúng với hướng Workflow (không phải Agent) mà nhóm chọn.*
+*Agent không phải đích đến mặc định: dù bài toán "dự đoán giờ xe buýt" của tôi có vẻ hợp với Agent (tự động theo dõi liên tục), nhóm cuối cùng cũng đã chọn bài khác phù hợp hơn nhưng có ranh giới người-máy rõ ràng và dễ validate trong thời gian lab.*
 
-Nếu làm lại:
-Tôi sẽ thu thập số liệu thực tế (log giờ xe đến trong 1-2 tuần) trước khi pitch candidate của mình, để "Pain có evidence" và "Impact đo được" có thể đạt điểm cao hơn, thay vì chỉ dựa vào trải nghiệm cá nhân của tôi khi thuyết trình trước nhóm.
+*Nếu làm lại:*
+*Tôi sẽ thu thập số liệu thực tế (log giờ xe đến trong 1-2 tuần) trước khi pitch candidate của mình, để "Pain có evidence" và "Impact đo được" có thể đạt điểm cao hơn. Thay vì chỉ dựa vào trải nghiệm cá nhân của tôi khi thuyết trình trước nhóm.*
